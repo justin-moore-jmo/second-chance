@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FEBADE85221F456700D3C125 /* second page.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBADE84221F456700D3C125 /* second page.swift */; };
+		FED77C8B221C96A400E8EBC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED77C8A221C96A400E8EBC8 /* AppDelegate.swift */; };
+		FED77C8D221C96A400E8EBC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED77C8C221C96A400E8EBC8 /* ViewController.swift */; };
+		FED77C90221C96A400E8EBC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FED77C8E221C96A400E8EBC8 /* Main.storyboard */; };
+		FED77C92221C96A500E8EBC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FED77C91221C96A500E8EBC8 /* Assets.xcassets */; };
+		FED77C95221C96A500E8EBC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FED77C93221C96A500E8EBC8 /* LaunchScreen.storyboard */; };
+		FED77CA0221C96A500E8EBC8 /* Second_ChanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED77C9F221C96A500E8EBC8 /* Second_ChanceTests.swift */; };
+		FED77CAB221C96A500E8EBC8 /* Second_ChanceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED77CAA221C96A500E8EBC8 /* Second_ChanceUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FED77C9C221C96A500E8EBC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FED77C7F221C96A400E8EBC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FED77C86221C96A400E8EBC8;
+			remoteInfo = "Second Chance";
+		};
+		FED77CA7221C96A500E8EBC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FED77C7F221C96A400E8EBC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FED77C86221C96A400E8EBC8;
+			remoteInfo = "Second Chance";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FEBADE84221F456700D3C125 /* second page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "second page.swift"; sourceTree = "<group>"; };
+		FED77C87221C96A400E8EBC8 /* Second Chance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Second Chance.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FED77C8A221C96A400E8EBC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FED77C8C221C96A400E8EBC8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FED77C8F221C96A400E8EBC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FED77C91221C96A500E8EBC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FED77C94221C96A500E8EBC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FED77C96221C96A500E8EBC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FED77C9B221C96A500E8EBC8 /* Second ChanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Second ChanceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FED77C9F221C96A500E8EBC8 /* Second_ChanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Second_ChanceTests.swift; sourceTree = "<group>"; };
+		FED77CA1221C96A500E8EBC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FED77CA6221C96A500E8EBC8 /* Second ChanceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Second ChanceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FED77CAA221C96A500E8EBC8 /* Second_ChanceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Second_ChanceUITests.swift; sourceTree = "<group>"; };
+		FED77CAC221C96A500E8EBC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FED77C84221C96A400E8EBC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FED77C98221C96A500E8EBC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FED77CA3221C96A500E8EBC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FED77C7E221C96A400E8EBC8 = {
+			isa = PBXGroup;
+			children = (
+				FED77C89221C96A400E8EBC8 /* Second Chance */,
+				FED77C9E221C96A500E8EBC8 /* Second ChanceTests */,
+				FED77CA9221C96A500E8EBC8 /* Second ChanceUITests */,
+				FED77C88221C96A400E8EBC8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FED77C88221C96A400E8EBC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FED77C87221C96A400E8EBC8 /* Second Chance.app */,
+				FED77C9B221C96A500E8EBC8 /* Second ChanceTests.xctest */,
+				FED77CA6221C96A500E8EBC8 /* Second ChanceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FED77C89221C96A400E8EBC8 /* Second Chance */ = {
+			isa = PBXGroup;
+			children = (
+				FED77C8A221C96A400E8EBC8 /* AppDelegate.swift */,
+				FED77C8C221C96A400E8EBC8 /* ViewController.swift */,
+				FED77C8E221C96A400E8EBC8 /* Main.storyboard */,
+				FEBADE84221F456700D3C125 /* second page.swift */,
+				FED77C91221C96A500E8EBC8 /* Assets.xcassets */,
+				FED77C93221C96A500E8EBC8 /* LaunchScreen.storyboard */,
+				FED77C96221C96A500E8EBC8 /* Info.plist */,
+			);
+			path = "Second Chance";
+			sourceTree = "<group>";
+		};
+		FED77C9E221C96A500E8EBC8 /* Second ChanceTests */ = {
+			isa = PBXGroup;
+			children = (
+				FED77C9F221C96A500E8EBC8 /* Second_ChanceTests.swift */,
+				FED77CA1221C96A500E8EBC8 /* Info.plist */,
+			);
+			path = "Second ChanceTests";
+			sourceTree = "<group>";
+		};
+		FED77CA9221C96A500E8EBC8 /* Second ChanceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FED77CAA221C96A500E8EBC8 /* Second_ChanceUITests.swift */,
+				FED77CAC221C96A500E8EBC8 /* Info.plist */,
+			);
+			path = "Second ChanceUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FED77C86221C96A400E8EBC8 /* Second Chance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FED77CAF221C96A500E8EBC8 /* Build configuration list for PBXNativeTarget "Second Chance" */;
+			buildPhases = (
+				FED77C83221C96A400E8EBC8 /* Sources */,
+				FED77C84221C96A400E8EBC8 /* Frameworks */,
+				FED77C85221C96A400E8EBC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Second Chance";
+			productName = "Second Chance";
+			productReference = FED77C87221C96A400E8EBC8 /* Second Chance.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FED77C9A221C96A500E8EBC8 /* Second ChanceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FED77CB2221C96A500E8EBC8 /* Build configuration list for PBXNativeTarget "Second ChanceTests" */;
+			buildPhases = (
+				FED77C97221C96A500E8EBC8 /* Sources */,
+				FED77C98221C96A500E8EBC8 /* Frameworks */,
+				FED77C99221C96A500E8EBC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FED77C9D221C96A500E8EBC8 /* PBXTargetDependency */,
+			);
+			name = "Second ChanceTests";
+			productName = "Second ChanceTests";
+			productReference = FED77C9B221C96A500E8EBC8 /* Second ChanceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FED77CA5221C96A500E8EBC8 /* Second ChanceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FED77CB5221C96A500E8EBC8 /* Build configuration list for PBXNativeTarget "Second ChanceUITests" */;
+			buildPhases = (
+				FED77CA2221C96A500E8EBC8 /* Sources */,
+				FED77CA3221C96A500E8EBC8 /* Frameworks */,
+				FED77CA4221C96A500E8EBC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FED77CA8221C96A500E8EBC8 /* PBXTargetDependency */,
+			);
+			name = "Second ChanceUITests";
+			productName = "Second ChanceUITests";
+			productReference = FED77CA6221C96A500E8EBC8 /* Second ChanceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FED77C7F221C96A400E8EBC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Justin.Moore;
+				TargetAttributes = {
+					FED77C86221C96A400E8EBC8 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					FED77C9A221C96A500E8EBC8 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = FED77C86221C96A400E8EBC8;
+					};
+					FED77CA5221C96A500E8EBC8 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = FED77C86221C96A400E8EBC8;
+					};
+				};
+			};
+			buildConfigurationList = FED77C82221C96A400E8EBC8 /* Build configuration list for PBXProject "Second Chance" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FED77C7E221C96A400E8EBC8;
+			productRefGroup = FED77C88221C96A400E8EBC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FED77C86221C96A400E8EBC8 /* Second Chance */,
+				FED77C9A221C96A500E8EBC8 /* Second ChanceTests */,
+				FED77CA5221C96A500E8EBC8 /* Second ChanceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FED77C85221C96A400E8EBC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FED77C95221C96A500E8EBC8 /* LaunchScreen.storyboard in Resources */,
+				FED77C92221C96A500E8EBC8 /* Assets.xcassets in Resources */,
+				FED77C90221C96A400E8EBC8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FED77C99221C96A500E8EBC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FED77CA4221C96A500E8EBC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FED77C83221C96A400E8EBC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEBADE85221F456700D3C125 /* second page.swift in Sources */,
+				FED77C8D221C96A400E8EBC8 /* ViewController.swift in Sources */,
+				FED77C8B221C96A400E8EBC8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FED77C97221C96A500E8EBC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FED77CA0221C96A500E8EBC8 /* Second_ChanceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FED77CA2221C96A500E8EBC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FED77CAB221C96A500E8EBC8 /* Second_ChanceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FED77C9D221C96A500E8EBC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FED77C86221C96A400E8EBC8 /* Second Chance */;
+			targetProxy = FED77C9C221C96A500E8EBC8 /* PBXContainerItemProxy */;
+		};
+		FED77CA8221C96A500E8EBC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FED77C86221C96A400E8EBC8 /* Second Chance */;
+			targetProxy = FED77CA7221C96A500E8EBC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FED77C8E221C96A400E8EBC8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FED77C8F221C96A400E8EBC8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FED77C93221C96A500E8EBC8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FED77C94221C96A500E8EBC8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FED77CAD221C96A500E8EBC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FED77CAE221C96A500E8EBC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FED77CB0221C96A500E8EBC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Second Chance/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "astate.Second-Chance";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FED77CB1221C96A500E8EBC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Second Chance/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "astate.Second-Chance";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FED77CB3221C96A500E8EBC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Second ChanceTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "astate.Second-ChanceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Second Chance.app/Second Chance";
+			};
+			name = Debug;
+		};
+		FED77CB4221C96A500E8EBC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Second ChanceTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "astate.Second-ChanceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Second Chance.app/Second Chance";
+			};
+			name = Release;
+		};
+		FED77CB6221C96A500E8EBC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Second ChanceUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "astate.Second-ChanceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Second Chance";
+			};
+			name = Debug;
+		};
+		FED77CB7221C96A500E8EBC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Second ChanceUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "astate.Second-ChanceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Second Chance";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FED77C82221C96A400E8EBC8 /* Build configuration list for PBXProject "Second Chance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FED77CAD221C96A500E8EBC8 /* Debug */,
+				FED77CAE221C96A500E8EBC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FED77CAF221C96A500E8EBC8 /* Build configuration list for PBXNativeTarget "Second Chance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FED77CB0221C96A500E8EBC8 /* Debug */,
+				FED77CB1221C96A500E8EBC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FED77CB2221C96A500E8EBC8 /* Build configuration list for PBXNativeTarget "Second ChanceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FED77CB3221C96A500E8EBC8 /* Debug */,
+				FED77CB4221C96A500E8EBC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FED77CB5221C96A500E8EBC8 /* Build configuration list for PBXNativeTarget "Second ChanceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FED77CB6221C96A500E8EBC8 /* Debug */,
+				FED77CB7221C96A500E8EBC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FED77C7F221C96A400E8EBC8 /* Project object */;
+}
