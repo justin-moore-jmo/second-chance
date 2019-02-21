@@ -13,7 +13,6 @@
 		FED77C90221C96A400E8EBC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FED77C8E221C96A400E8EBC8 /* Main.storyboard */; };
 		FED77C92221C96A500E8EBC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FED77C91221C96A500E8EBC8 /* Assets.xcassets */; };
 		FED77C95221C96A500E8EBC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FED77C93221C96A500E8EBC8 /* LaunchScreen.storyboard */; };
-		FED77CA0221C96A500E8EBC8 /* Second_ChanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED77C9F221C96A500E8EBC8 /* Second_ChanceTests.swift */; };
 		FED77CAB221C96A500E8EBC8 /* Second_ChanceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED77CAA221C96A500E8EBC8 /* Second_ChanceUITests.swift */; };
 /* End PBXBuildFile section */
 
@@ -44,8 +43,6 @@
 		FED77C94221C96A500E8EBC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FED77C96221C96A500E8EBC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FED77C9B221C96A500E8EBC8 /* Second ChanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Second ChanceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FED77C9F221C96A500E8EBC8 /* Second_ChanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Second_ChanceTests.swift; sourceTree = "<group>"; };
-		FED77CA1221C96A500E8EBC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FED77CA6221C96A500E8EBC8 /* Second ChanceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Second ChanceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FED77CAA221C96A500E8EBC8 /* Second_ChanceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Second_ChanceUITests.swift; sourceTree = "<group>"; };
 		FED77CAC221C96A500E8EBC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -80,7 +77,6 @@
 			isa = PBXGroup;
 			children = (
 				FED77C89221C96A400E8EBC8 /* Second Chance */,
-				FED77C9E221C96A500E8EBC8 /* Second ChanceTests */,
 				FED77CA9221C96A500E8EBC8 /* Second ChanceUITests */,
 				FED77C88221C96A400E8EBC8 /* Products */,
 			);
@@ -108,15 +104,6 @@
 				FED77C96221C96A500E8EBC8 /* Info.plist */,
 			);
 			path = "Second Chance";
-			sourceTree = "<group>";
-		};
-		FED77C9E221C96A500E8EBC8 /* Second ChanceTests */ = {
-			isa = PBXGroup;
-			children = (
-				FED77C9F221C96A500E8EBC8 /* Second_ChanceTests.swift */,
-				FED77CA1221C96A500E8EBC8 /* Info.plist */,
-			);
-			path = "Second ChanceTests";
 			sourceTree = "<group>";
 		};
 		FED77CA9221C96A500E8EBC8 /* Second ChanceUITests */ = {
@@ -269,7 +256,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FED77CA0221C96A500E8EBC8 /* Second_ChanceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

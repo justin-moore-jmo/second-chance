@@ -14,9 +14,16 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        print("page 2 loaded")
+        print("page 1 loaded")
     }
 
 
 }
 
+class ViewControllerTwo: UIViewController {
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view, typically from a nib.
+        print("page 2 loaded")
+    }
+}
