@@ -21,9 +21,13 @@ class ViewController: UIViewController {
 }
 
 class ViewControllerTwo: UIViewController {
+    @IBAction func restartButtonHeld(_ sender: Any) {performSegue(withIdentifier: "backToStart", sender: self)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         print("page 2 loaded")
+        
     }
+    
 }
