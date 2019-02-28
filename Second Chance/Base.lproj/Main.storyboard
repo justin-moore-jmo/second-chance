@@ -95,7 +95,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" text="She seems to ignore your question and asks her own. &quot;What kind of person where you?&quot;" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="none" adjustsLetterSpacingToFitWidth="YES" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="680" translatesAutoresizingMaskIntoConstraints="NO" id="2oj-U7-cEy">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" text="She seems to ignore your question and asks her own. &quot;What kind of person were you?&quot;" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="none" adjustsLetterSpacingToFitWidth="YES" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="680" translatesAutoresizingMaskIntoConstraints="NO" id="2oj-U7-cEy">
                                 <rect key="frame" x="36" y="52" width="299" height="249"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
@@ -165,17 +165,19 @@
                                 <rect key="frame" x="127" y="528" width="120" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Good" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="11" baselineAdjustment="none" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Vp-pW-M0e">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="&quot;So you were an honorable person in life. Tell me, what did you fight for?&quot;" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="11" baselineAdjustment="none" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Vp-pW-M0e">
                                 <rect key="frame" x="37" y="52" width="300" height="249"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EnL-w1-4O4">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="EnL-w1-4O4">
                                 <rect key="frame" x="119" y="528" width="112" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Country"/>
+                                <state key="normal" title="I fought for my county.">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <segue destination="87b-vb-xTf" kind="show" id="HXb-gf-aFv"/>
                                 </connections>
@@ -188,18 +190,23 @@
                                 <rect key="frame" x="119" y="369" width="120" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aoG-9Z-Swn">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="aoG-9Z-Swn">
                                 <rect key="frame" x="119" y="369" width="112" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Love"/>
+                                <state key="normal" title="I fought for my love.">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <segue destination="IQL-La-AcH" kind="show" id="I1E-Z2-CGh"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yw6-2H-WFi">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Yw6-2H-WFi">
                                 <rect key="frame" x="119" y="451" width="112" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Family"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal" title="I fought for my family.">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <segue destination="5hp-2M-Bv0" kind="show" id="Wq3-SY-Wbw"/>
                                 </connections>
@@ -287,7 +294,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="&quot;I see you where a tyrant in your lifetime. However, I believe people can change. Do you have any regrets for your actions?&quot;" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="11" baselineAdjustment="none" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fru-sc-bjw">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="&quot;I see you were a tyrant in your lifetime. However, I believe people can change. Do you have any regrets for your actions?&quot;" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="11" baselineAdjustment="none" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fru-sc-bjw">
                                 <rect key="frame" x="37" y="52" width="300" height="249"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -398,7 +405,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="11" baselineAdjustment="none" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aBh-Vc-Vwq">
                                 <rect key="frame" x="37" y="52" width="300" height="249"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">"Very well. I see there is no hope for you to make amends. Therefore, you will burn in hell for the rest of time. I hope that maybe one day you will see what you did was wrong."</string>
+                                <string key="text">"Very well. I see there is no hope for you to make amends. Therefore, you will burn in Hell for the rest of time. I hope that maybe one day you will see what you did was wrong."</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -496,7 +503,7 @@
                                 <rect key="frame" x="127" y="528" width="120" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="&quot;You have regrets, but choose not to change your actions. Therefore I sentence you to hell for the remainder of time.&quot;" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="11" baselineAdjustment="none" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kdp-6S-HUb">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="&quot;You have regrets, but choose not to change your actions. Therefore I sentence you to Hell for the remainder of time.&quot;" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="11" baselineAdjustment="none" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kdp-6S-HUb">
                                 <rect key="frame" x="37" y="52" width="300" height="249"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -543,7 +550,7 @@
                                 <rect key="frame" x="127" y="528" width="120" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="&quot;I see you have not truly redeemed, and now you will have to pay the price by burning in hell for all eternity&quot;" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="11" baselineAdjustment="none" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jx9-1R-EKb">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="&quot;I see you have not truly redeemed, and now you will have to pay the price by burning in Hell for all eternity&quot;" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="11" baselineAdjustment="none" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jx9-1R-EKb">
                                 <rect key="frame" x="37" y="52" width="300" height="249"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -675,7 +682,7 @@
                                 <rect key="frame" x="127" y="528" width="120" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Family" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="11" baselineAdjustment="none" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q42-eA-5cG">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="&quot;Fighting for your family is respectable. If given a second chance, would you keep fighting for them?&quot;" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="11" baselineAdjustment="none" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q42-eA-5cG">
                                 <rect key="frame" x="37" y="52" width="300" height="249"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -685,7 +692,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vFs-vh-tdF">
                                 <rect key="frame" x="127" y="528" width="112" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Where am I?"/>
+                                <state key="normal" title="What do you mean?">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <segue destination="Z4r-GC-Iwl" kind="show" id="MN1-t5-0zd"/>
                                 </connections>
@@ -711,9 +720,10 @@
                                 <rect key="frame" x="127" y="528" width="120" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="country" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="11" baselineAdjustment="none" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wrQ-Wq-KXd">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="11" baselineAdjustment="none" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wrQ-Wq-KXd">
                                 <rect key="frame" x="37" y="52" width="300" height="249"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">"Fighting for your country is one of the most brave things someone can do. Tell me, if given a second chance to continue fighting, would you take it?"</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -721,7 +731,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pD3-VL-YFt">
                                 <rect key="frame" x="127" y="528" width="112" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Where am I?"/>
+                                <state key="normal" title="What do you mean?">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <segue destination="Z4r-GC-Iwl" kind="show" id="3Kh-Gq-5ug"/>
                                 </connections>
@@ -744,34 +756,38 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Medium Button" translatesAutoresizingMaskIntoConstraints="NO" id="IqR-I2-Gr4">
-                                <rect key="frame" x="127" y="528" width="120" height="48"/>
+                                <rect key="frame" x="76" y="528" width="219" height="99"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Love" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="11" baselineAdjustment="none" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HCD-ey-hGf">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="&quot;Fighting for love is admirable. If given a second chance, would you choose to go back and continue fighting for them?&quot;" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="11" baselineAdjustment="none" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HCD-ey-hGf">
                                 <rect key="frame" x="37" y="52" width="300" height="249"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M6P-2C-SFU">
-                                <rect key="frame" x="90" y="528" width="186" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="I wish I could've done more"/>
-                                <connections>
-                                    <segue destination="Z4r-GC-Iwl" kind="show" id="gVN-jo-6GN"/>
-                                </connections>
-                            </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Medium Button" translatesAutoresizingMaskIntoConstraints="NO" id="mXQ-se-egA">
-                                <rect key="frame" x="91" y="442" width="193" height="48"/>
+                                <rect key="frame" x="90" y="420" width="193" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xxw-OU-5Ob">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Xxw-OU-5Ob">
                                 <rect key="frame" x="105" y="442" width="165" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Pass on to be with them"/>
+                                <state key="normal" title="Sadly, they died with me. I couldn't protect them. I wish I could still be with them.">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <segue destination="S8x-bc-jGD" kind="show" id="dRG-0d-MqY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="M6P-2C-SFU">
+                                <rect key="frame" x="93" y="552" width="186" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Of course I would! They are still out there and need my help.">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Z4r-GC-Iwl" kind="show" id="gVN-jo-6GN"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -781,7 +797,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DEu-DJ-DL6" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4034" y="-2780"/>
+            <point key="canvasLocation" x="4032.8000000000002" y="-2780.0599700149928"/>
         </scene>
         <!--Page 2-->
         <scene sceneID="4cU-Lx-ln6">
@@ -795,9 +811,10 @@
                                 <rect key="frame" x="127" y="528" width="120" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pass on to be with your love" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="11" baselineAdjustment="none" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5S8-H4-D2J">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="11" baselineAdjustment="none" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5S8-H4-D2J">
                                 <rect key="frame" x="37" y="52" width="300" height="249"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">"I will grant you that wish. They have already passed on, and I can send you there to be with them" You are sent to pass on where you can be with your loved one for the rest of eternity.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -814,7 +831,7 @@
                                 </connections>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.39921575784683228" green="0.46957498788833618" blue="0.90927755832672119" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="TF5-ee-iPz"/>
                     </view>
                     <connections>
@@ -839,20 +856,22 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Medium Button" translatesAutoresizingMaskIntoConstraints="NO" id="IzD-R5-5TF">
-                                <rect key="frame" x="127" y="528" width="120" height="48"/>
+                                <rect key="frame" x="91" y="508" width="186" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Continue Fighting?" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="11" baselineAdjustment="none" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B8I-oH-ug6">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="&quot;I will send you back to your world where you can keep fighting for what you believe in. Do you accept this offer?&quot;" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="11" baselineAdjustment="none" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B8I-oH-ug6">
                                 <rect key="frame" x="37" y="52" width="300" height="249"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sOt-Ib-QO6">
-                                <rect key="frame" x="127" y="528" width="112" height="48"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="sOt-Ib-QO6">
+                                <rect key="frame" x="105" y="528" width="165" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="NO"/>
+                                <state key="normal" title="I don't feel right getting a second chance at life. I think staying dead would be for the best.">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <segue destination="uP9-jj-8ox" kind="show" id="Jum-hv-8CZ"/>
                                 </connections>
@@ -864,7 +883,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iDz-vM-F40">
                                 <rect key="frame" x="105" y="442" width="165" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="YES"/>
+                                <state key="normal" title="Of course!">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <segue destination="ETz-Jc-dXL" kind="show" id="e9O-iu-LLG"/>
                                 </connections>
@@ -876,7 +897,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bKf-1A-BC4" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5255" y="-3510"/>
+            <point key="canvasLocation" x="5253.6000000000004" y="-3510.4947526236883"/>
         </scene>
         <!--Page 2-->
         <scene sceneID="M0l-5w-Y9e">
@@ -890,7 +911,7 @@
                                 <rect key="frame" x="127" y="528" width="120" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Heaven Ending" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="11" baselineAdjustment="none" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aez-bG-tR0">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="&quot;Very well. You lived a good life, so I will grant you the right to pass on. Thank you for your time on earth.&quot;" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="11" baselineAdjustment="none" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aez-bG-tR0">
                                 <rect key="frame" x="46" y="51" width="300" height="249"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -909,7 +930,7 @@
                                 </connections>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.3992156982421875" green="0.46957498788833618" blue="0.90927749872207642" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="WLJ-1b-bkz"/>
                     </view>
                     <connections>
@@ -937,11 +958,10 @@
                                 <rect key="frame" x="127" y="528" width="120" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Continue Living Ending" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="11" baselineAdjustment="none" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e9i-q3-Stv">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="&quot;Very well. Good luck&quot; You wake back up in bed, ready to continue fighting for what you believe most strongly in." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="11" baselineAdjustment="none" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e9i-q3-Stv">
                                 <rect key="frame" x="46" y="51" width="300" height="249"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hold to restart" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sh9-VC-UOO">
@@ -949,14 +969,13 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="highlightedColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="dqQ-6a-WLf" appends="YES" id="kyz-5R-q9V"/>
                                 </connections>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="wOv-Af-JmS"/>
                     </view>
                     <connections>
@@ -1400,6 +1419,6 @@
     <inferredMetricsTieBreakers>
         <segue reference="yZJ-YE-f6D"/>
         <segue reference="gVN-jo-6GN"/>
-        <segue reference="SfK-iD-Sfe"/>
+        <segue reference="30h-Vl-G32"/>
     </inferredMetricsTieBreakers>
 </document>
